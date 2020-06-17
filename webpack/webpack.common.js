@@ -7,6 +7,7 @@ module.exports = {
     entry: {
         popup: path.join(__dirname, srcDir + 'popup.ts'),
         options: path.join(__dirname, srcDir + 'options.ts'),
+        newtab: path.join(__dirname, srcDir + 'newtab.ts'),
         background: path.join(__dirname, srcDir + 'background.ts'),
         content_script: path.join(__dirname, srcDir + 'content_script.ts')
     },

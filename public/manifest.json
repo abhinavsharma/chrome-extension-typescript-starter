@@ -29,5 +29,9 @@
   "permissions": [
     "storage",
     "<all_urls>"
-  ]
+  ],
+
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  }
 }
